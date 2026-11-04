@@ -1,0 +1,131 @@
+ 1. Count Vowels
+Problem Statement: Write a C program to read a string (can contain spaces) and count total vowels. Vowels are a, e, i, o, u both small and capital.
+Input Format: One line string
+Output Format: Vowels = <count>
+Sample Input: Hello World
+Sample Output: Vowels = 3
+Explanation: e, o, o = 3
+
+ 2. Count Consonants
+Problem Statement: Read a string and count total consonants. Alphabet which is not vowel is consonant.
+Input Format: One line string
+Output Format: Consonants = <count>
+Sample Input: Hello World
+Sample Output: Consonants = 7
+
+3. Count Uppercase and Lowercase
+Problem Statement: Count total uppercase letters (A-Z) and lowercase letters (a-z) separately.
+Input Format: String
+Output Format: Uppercase = X, Lowercase = Y
+Sample Input: Hello World
+Sample Output: Uppercase = 2, Lowercase = 8
+
+ 4. Convert to Uppercase
+Problem Statement: Convert a string into uppercase without using built-in strupr().
+Input Format: String in lowercase
+Output Format: String in uppercase
+Sample Input: hello world
+Sample Output: HELLO WORLD
+
+5. Convert to Lowercase
+Problem Statement: Convert a string into lowercase without using strlwr().
+Sample Input: HELLO WORLD
+Sample Output: hello world
+
+ 6. Reverse a String
+Problem Statement: Reverse the given string without using strrev().
+Sample Input: KMIT
+Sample Output: TIMK
+
+ 7. Check Palindrome
+Problem Statement: Check whether a string is palindrome or not. Palindrome means same forward and backward.
+Input Format: One word
+Output Format: Print Palindrome or Not Palindrome
+Sample Input 1: madam -> Output: Palindrome
+Sample Input 2: kmit -> Output: Not Palindrome
+
+8. Compare Two Strings
+Problem Statement: Compare two strings without strcmp() and tell if they are equal.
+Input Format: Two lines, String1 and String2
+Output Format: Equal / Not Equal
+Sample Input: hello , hello -> Output: Equal
+Sample Input: hello , Hello -> Output: Not Equal
+
+ 9. Search Character - First Position
+Problem Statement: Search for a character in string and print its first index. If not found print -1. Index starts from 0.
+Input Format: Line 1: String, Line 2: character to search
+Sample Input:
+programming
+g
+Sample Output: First occurrence at position 3
+
+10. Count Occurrence of a Character
+Problem Statement: Count how many times a given character occurs in string.
+Sample Input:
+programming
+m
+Sample Output: 2
+
+ 11. Replace Character
+Problem Statement: Replace every occurrence of old char with new char.
+Input Format: String, old char, new char
+Sample Input: banana, a, o
+Sample Output: bonono
+
+ 12. Count Digit Characters
+Problem Statement: Count number of characters which are digits (0-9).
+Sample Input: a1b2c34
+Sample Output: Digits = 4
+
+ 13. Count Number of Words
+Problem Statement: Count total words in a sentence. Assume words separated by single space.
+Sample Input: I love C programming
+Sample Output: Words = 4
+
+ 14. Frequency of Each Character
+Problem Statement: Print frequency of each distinct character without repeating same character.
+Sample Input: hello
+Sample Output:
+h = 1
+e = 1
+l = 2
+o = 1
+15. Count Alphabets, Digits, Special Characters
+Problem Statement: Count alphabets, digits and special characters separately.
+Sample Input: Hello@123
+Sample Output: Alphabets=5 Digits=3 Special=1
+
+ 16. Count Number of Spaces
+Problem Statement: Count total number of blank spaces in a sentence.
+Sample Input: I love C
+Sample Output: Spaces = 2
+
+17. Remove All Spaces
+Problem Statement: Remove all spaces from the given sentence.
+Sample Input: I love C
+Sample Output: IloveC
+
+18. Remove All Vowels
+Problem Statement: Remove all vowels from the string.
+Sample Input: hello world
+Sample Output: hll wrld
+
+ 19. Remove Repeated Characters
+Problem Statement: Remove duplicate characters, keep only first occurrence of each character.
+Sample Input: programming
+Sample Output: progamin
+
+ 20. Check Anagrams / Same Frequencies
+Problem Statement: Check whether two lowercase words contain same letters with same frequencies.
+Sample Input 1: listen silent -> Output: Same letters
+Sample Input 2: hello world -> Output: Not same
+
+ 21. Arrange Characters in Ascending Order
+Problem Statement: Sort characters of a lowercase word in alphabetical order (like bubble sort on char array).
+Sample Input: edcba
+Sample Output: abcde
+
+22. Reverse Each Word of a Sentence
+Problem Statement: Reverse each word of a sentence individually while preserving word order.
+Sample Input: I love C programming
+Sample Output: I evol C gnimmargorp
