@@ -25,7 +25,7 @@ Problem Statement: Convert a string into uppercase without using built-in strupr
 Input Format: String in lowercase
 Output Format: String in uppercase
 Sample Input: hello world
-Sample Output: HELLO WORLD
+Sample Output: HELLO WORLD 
 
 5. Convert to Lowercase
 Problem Statement: Convert a string into lowercase without using strlwr().
